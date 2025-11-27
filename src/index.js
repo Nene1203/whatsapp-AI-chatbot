@@ -28,7 +28,7 @@ app.get('/webhook', (req, res) => {
 // Route de relais POST vers n8n
 app.post('/webhook', async (req, res) => {
   try {
-    const response = await fetch('https://kirua1907.app.n8n.cloud/webhook-test/whatsapp-inbound', {
+    const response = await fetch('https://nene1203.app.n8n.cloud/webhook/whatsapp-inbound', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
